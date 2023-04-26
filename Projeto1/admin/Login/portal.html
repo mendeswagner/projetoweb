@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../../css/portal.css">
+		<title>Estacio Rent a Car</title>
+	</head>
+<body>
+	<header>
+		<nav class="menu_h">
+			<ul>
+				<li>
+					<a href="http://localhost/projeto1/admin/login/portal.html">Cadastro de Categoria</a>
+				</li>
+				<li>
+					<a href="http://localhost/projeto1/admin/cadastro_veiculos/cadastro_veiculos.html">Cadastro de Veiculos</a>
+				</li>
+				<li>
+					<a href="http://localhost/projeto1/admin/consulta/consulta_veiculos.html">Consultas de Veiculos</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	
+	<form id="cadastro_categoria" name="cadastro_categoria" class="cadastro" method="post" action="CategoriaCtrl.Class.php">
+
+		<div>
+			<legend>Cadastre a Categoria</legend>	
+			<input class="cadastro_categoria" type="text" placeholder="Carro, Moto, Caminhão" id="categoria" name="categoria" required autofocus>
+		</div>
+			
+		<div>
+			<input class="botao" type="submit" id="btn_entrar" name="action" value="inserir"></div>
+		</div>
+	</form>
+
+
+
+
+
+	<main class="conteudo">
+		<div>
+			<center>
+				<p> Estacio Rent a Car</p>
+			</center>
+			
+			<img src="../../img/frota.png" class="carro_home">
+
+		</div>
+
+
+		<span>Estacio Rent a Car</span>
+	</main>
+	
+		
+</body>
+</html>
